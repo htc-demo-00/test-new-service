@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-new-service"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-00"
+    "humanitec.com/appId": "test-new-service"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
